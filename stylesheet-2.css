@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+    
+    
+}
+:root {
+--primary-color:#DAB692 ;
+--secondary-color:#8F5B34;
+--tertiary-color: #8a9e8a;
+font-family: 'Times New Roman', Times, serif;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    color: #683b2b;
+    background-color:#DAB692;
+
+}
+
+.header {
+    background: #DAB692;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 35px;
+   
+}
+
+.navigation-link {
+    border: 2px solid transparent;
+  }
+  
+  .navigation-link:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #262220;
+    transition: 0.5s ease;
+  }
+nav li{
+    display: inline-block;
+    justify-content:space-evenly;
+    list-style-type:none;
+padding-right: 8px;
+
+
+}
+/* Main Container height*/
+.main-container {
+    height: 100vh;
+  }
+  
+  /* Aligning items in main row */
+  .main_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Changing Name Font sixe */
+  .main_row h1 {
+    font-size: 5rem;
+  }
+  
+  /* Making the main image the size of the screen */
+  .main_row img {
+    width: auto;
+    height: 400px;
+    padding-left: 100px;
+  }
+/* About Section */
+.about {
+    background: #c3a6a0;
+    border-radius: 200px;
+    padding: 50px;
+  }
+
+.computer-image{
+    width: auto;
+    height: 350px;
+}
+.card {
+    border-bottom: 8px solid #f5ba09;
+  }
+  #social-media {
+    background: #c3a6a0;
+  }
+  .media_link {
+    padding: 1rem;
+    max-width: 15rem;
+    margin-left: 1rem;
+    border: 2px solid #f5ba09;
+    border-radius: 0.5rem;
+  }
