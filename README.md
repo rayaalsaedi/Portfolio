@@ -1,5 +1,5 @@
 # Summary:
-Updated Portfolio
+This is a professional portfolio which shows examples of the projects I have been working on. 
 
 # Technologies used:
 - HTML
